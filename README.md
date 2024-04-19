@@ -12,7 +12,7 @@ Application web moderne conçue avec React, offrant une plateforme intuitive pou
 
 ## 🛠️ Outils
 
-- ![Logo de VS Code](./assets/img/icons8-code-studio-visuel-2019-50.png)
+- ![Logo de VS Code](./img/icons8-code-studio-visuel-2019-50.png)
 
 ## 📷 Captures d’écran
 ![Screenshot](./img/Screenshot.PNG)
