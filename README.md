@@ -17,6 +17,5 @@ Application web moderne conçue avec React, offrant une plateforme intuitive pou
 ## 📷 Captures d’écran
 ![Screenshot](./img/Screenshot.PNG)
 
-## 🔗 Liens vers la démo
 
 
