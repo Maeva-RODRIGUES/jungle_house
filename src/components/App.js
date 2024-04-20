@@ -5,7 +5,7 @@ import Cart from './Cart'
 import Footer from './Footer'
 import ShoppingList from './ShoppingList'
 import '../styles/Layout.css'
-// import music from '../assets/music.mp3'; // Importer  fichier audio
+import music from '../assets/music/music.mp3'; // Importer  fichier audio
 
 			 function App() {
 				const savedCart = localStorage.getItem('cart')
@@ -13,9 +13,18 @@ import '../styles/Layout.css'
 				useEffect(() => {
 					localStorage.setItem('cart', JSON.stringify(cart))
 				}, [cart])
+
+				useEffect(() => {
+					const audio = new Audio(music);
+					audio.play();
+				}, []); // Le tableau vide [] signifie que cela s'exécute une seule fois lors du montage du composant
 			
 				return (
-					<div>
+					<div> 
+						<audio autoPlay loop>
+							<source src={music} type="audio/mpeg" />
+						</audio>
+		
 						<Banner>
 							<img src={logo} alt='logo-la-maison-jungle' className='lmj-logo' />
 							<h1 className='lmj-title'>La maison jungle</h1>
