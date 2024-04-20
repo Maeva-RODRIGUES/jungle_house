@@ -18,5 +18,5 @@ Application web moderne conçue avec React, offrant une plateforme intuitive pou
 ![Screenshot](./img/Screenshot.PNG)
 
 ## 🎥 Vidéo du site
-![Vidéo](https://youtu.be/HL2ejvKo-2E?si=V6Fqt7KcwAiiCdM5)
+(https://youtu.be/HL2ejvKo-2E?si=V6Fqt7KcwAiiCdM5)
 
