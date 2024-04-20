@@ -21,6 +21,7 @@ import music from '../assets/music/music.mp3'; // Importer  fichier audio
 			
 				return (
 					<div> 
+						 {/* Ajout musique */}
 						<audio autoPlay loop>
 							<source src={music} type="audio/mpeg" />
 						</audio>
